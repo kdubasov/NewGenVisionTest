@@ -1,0 +1,29 @@
+.flex-htnl-catalog{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.btn{
+    padding: 12px 24px;
+    margin: 5px;
+}
+
+.card{
+    width: 95%;
+    margin: 5px;
+}
+
+@media screen and (max-width: 750px){
+    .flex-htnl-catalog{
+        width: 95%;
+        padding-top: 10px;
+    }
+    .btn{
+        padding: 5px 10px;
+        margin: 5px;
+    }
+}
